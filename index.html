@@ -27,7 +27,7 @@
     <body>
         <header>
             <picture>
-                <img src="assets/images/logo.svg" alt="Web logo" />
+                <img src="assets/images/logo.svg" alt="Web logo" class="logo-h"/>
             </picture>
             <a href="#" class="menu-btn" id="js-btn">
                 <span></span>
@@ -36,11 +36,11 @@
             </a>
             <nav class="menu">
                 <ul>
-                    <li>Home</li>
-                    <li>New</li>
-                    <li>Popular</li>
-                    <li>Trending</li>
-                    <li>Categories</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Categories</a></li>
                 </ul>
             </nav>
         </header>
@@ -48,6 +48,7 @@
             <section class="cover-article">
                 <article class="cover">
                     <picture class="cover-img">
+                        <source srcset="assets/images/image-web-3-desktop.jpg" media="(min-width:600px)">
                         <img
                             src="assets/images/image-web-3-mobile.jpg"
                             alt="Web 3"
@@ -88,27 +89,33 @@
             <section class="most-viewed">
                 <article class="mv-article">
                     <img src="assets/images/image-retro-pcs.jpg" alt="" class="mv-img" />
+                    <div class="mv-info">
                     <h1 class="mv-number">01</h1>
                     <h3 class="mv-title">Reviving Retro PCs</h3>
                     <p class="mv-text">
                         What happens when old PCs are given modern upgrades?
                     </p>
+                    </div>
                 </article>
                 <article class="mv-article">
                     <img src="assets/images/image-top-laptops.jpg" alt="" class="mv-img" />
+                    <div class="mv-info">
                     <h1 class="mv-number">02</h1>
                     <h3 class="mv-title">Top 10 Laptops of 2022</h3>
                     <p class="mv-text">
                         Our best picks for various needs and budgets.
                     </p>
+                    </div>
                 </article>
                 <article class="mv-article">
                     <img src="assets/images/image-gaming-growth.jpg" alt="" class="mv-img" />
+                    <div class="mv-info">
                     <h1 class="mv-number">03</h1>
                     <h3 class="mv-title">The Growth of Gaming</h3>
                     <p class="mv-text">
                         How the pandemic has sparked fresh opportunities.
                     </p>
+                    </div>
                 </article>
             </section>
         </main>
